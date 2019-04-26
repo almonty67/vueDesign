@@ -1,5 +1,5 @@
 const webpack = require('webpack');
-
+const compiler = require('vue-template-compiler')
 module.exports = {
   configureWebpack: {
     // Set up all the aliases we use in our app.
